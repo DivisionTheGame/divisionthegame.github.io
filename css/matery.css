@@ -713,8 +713,29 @@ header .go-back i {
 }
 
 .dream .text {
+	margin-top: 20px;
     opacity: .6;
     font-size: 1.1rem;
+	color: #ffffff;
+}
+
+.demo .title {
+	margin-top: 200px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.interpretation .title {
+	margin-top: 200px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.interpretation .text {
+    opacity: .6;
+    font-size: 0.7rem;
 	color: #ffffff;
 }
 
@@ -1694,6 +1715,7 @@ thead {
 .my-projects .title,
 .my-skills .title,
 .my-gallery .title {
+	font-weight: 700;
     font-size: 2rem;
     margin-bottom: 2.25rem;
 }
@@ -1850,6 +1872,8 @@ footer a {
 }
 
 footer .copy-right {
+	margin-top: 10px;
+    position: relative;
     color: #dbdbdb;
 }
 
