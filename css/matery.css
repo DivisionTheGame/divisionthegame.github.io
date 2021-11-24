@@ -34,9 +34,9 @@
 }
 
 body {
-    background-color: #eaeaea;
+    background-color: #000000;
     margin: 0;
-    color: #34495e;
+    color: #ffffff;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -247,6 +247,7 @@ mark {
 
 .text-color {
     color: #0f9d58 !important;
+	/*color: #ffffff !important;*/
 }
 
 .white-color {
@@ -698,14 +699,15 @@ header .go-back i {
 }
 
 .dream {
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 
 .dream .title,
 .music-player .title,
 .video-player .title {
-    margin-bottom: 20px;
+	margin-top: 100px;
+    margin-bottom: 50px;
     font-size: 2rem;
     font-weight: 700;
 }
